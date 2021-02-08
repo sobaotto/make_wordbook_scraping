@@ -1,12 +1,11 @@
 import requests
-import os, time, sys
+import os, time
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import chromedriver_binary
 import urllib.request
 import pandas as pd
-import numpy as np
 
 # launch chrome browser
 driver = webdriver.Chrome()
